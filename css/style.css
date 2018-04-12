@@ -80,7 +80,11 @@ footer a{
 }
 
 .navbar a:hover, .navbar .active a {
-    color: white;
+    color:#EDD253;
+}
+
+.active {
+    color:#EDD253;
 }
 
 .navbar-toggler-icon {
@@ -144,3 +148,29 @@ img {
 color: white;
   }
 
+.quote {
+    margin: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+    font-weight: 700;
+    color: #D0683E;
+}
+
+.centercenter {
+    text-align: center;
+}
+
+.footer {
+    font-size: 7pt;
+    font-weight:200;
+}
+
+body {
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    width: 100%;
+    background-size: cover;
+}
